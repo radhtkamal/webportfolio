@@ -440,3 +440,8 @@ iframe:hover {
     transform: perspective(900px) rotateX(5deg) rotateY(12deg) scale(1.5);
     transition: 300ms ease-out;
 }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
